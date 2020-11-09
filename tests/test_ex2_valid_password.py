@@ -2,7 +2,7 @@ import unittest
 from ex2_valid_password.ex2_valid_password import ValidPassword
 
 
-class MyTestCase(unittest.TestCase):
+class TestValidPassword(unittest.TestCase):
     def setUp(self):
         self.temp = ValidPassword()
 
